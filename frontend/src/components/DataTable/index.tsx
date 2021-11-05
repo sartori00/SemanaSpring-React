@@ -27,7 +27,9 @@ const DataTable = () => {
 
   return (
     <>
-      <Pagination page={page} onPageChange={changePage} />
+      <div className="row d-flex justify-content-center">
+        <Pagination page={page} onPageChange={changePage} />
+      </div>
       <div className="table-responsive">
         <table className="table table-striped table-sm">
           <thead>
